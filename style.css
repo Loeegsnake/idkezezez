@@ -1,0 +1,52 @@
+/* poem2.html 網頁外部匯入樣式設定 */
+
+/* *1 整頁背景設為粉黃色 */
+body {
+    background-color: lightyellow;
+    text-align: center;
+    font-family: "PMingLiU", "KaiTi", "DFKai-SB", "Microsoft JhengHei", serif;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+/* *2 詩的標題設為: 紅色、36點字 */
+.poem-title {
+    color: red;
+    font-size: 36pt;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.poet-info {
+    font-size: 16pt;
+    margin-bottom: 20px;
+}
+
+/* *3 頁面中央放1楨劉禹錫的畫像圖(長或寬為200px)，深棕色圖框線(3px)、四周做成圓角(半徑20px) */
+.portrait-container {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.portrait {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 3px solid saddlebrown;
+    border-radius: 20px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* *2 詩的內容設為: 棕色、24點字 */
+.poem-content {
+    color: brown;
+    font-size: 24pt;
+    line-height: 1.6;
+    margin-top: 25px;
+}
+
+.nav-back {
+    margin-top: 40px;
+    font-size: 14pt;
+}
